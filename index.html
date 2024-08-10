@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes Interactiva</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Galería de Imágenes Interactiva</h1>
+    <div id="contenedor">
+        <form id="contenedor-formulario">
+            <label for="file-input" id="custom-file-label">Subir Imagen</label>
+            <input type="file" accept="image/*" id="file-input">
+            <input type="submit" id="btn-add" value="Agregar">
+            <img id="image-preview" src="" alt="Vista previa" style="display: none;">
+        </form>
+    </div>
+    <div class="gallery-container">
+        
+    </div>
+    <div class="empty">
+        <p>Galería Vacia</p>
+    </div>
+    <script src="output/main.js"></script>
+</body>
+</html>
